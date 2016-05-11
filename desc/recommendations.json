@@ -1,0 +1,31 @@
+{
+  "values": [
+    {
+      "description": "Backup located at an offline location and not being directly from the infrastructure where the backups are performed.",
+      "question": "Are your backup located at an offline location? and remain independant of your backup infrastucture?",
+      "id": "backup-offline"
+    },
+    {
+      "description": "Testing your backup infrastructure to ensure that you can restore the information following a specific retention period.",
+      "question": "Do you regularly test your backup backup infrastructure to ensure that information can be restored following a specific retention period?",
+      "id": "backup-testing"
+    },
+    {
+      "description": "Backup of the information under your responsibility.",
+      "question": "Do you have regular backups of the information under your responsibility?",
+      "id": "backup"
+    },
+    {
+      "description": "Using dedicated and partially disconnected system to perform some core activities.",
+      "question": "Do you use dedicated and partially disconnected system to perform some core activities?",
+      "id": "system-dedicated"
+    },
+    {
+      "description": "Patching and controlling extensions and plugins of the deployed Internet browsers.",
+      "question": "Do you patch and control extensions and plugins of the deployed Internet browsers?",
+      "id": "browser-extension-patching"
+    }
+  ],
+  "description": "List of known recommendations or counter-measures.",
+  "version": 1
+}

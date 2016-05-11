@@ -1,0 +1,48 @@
+{
+  "values": [
+    {
+      "recommendations": [
+        {
+          "value": "system-dedicated",
+          "impact": 4
+        },
+        {
+          "value": "backup-testing",
+          "impact": 1
+        },
+        {
+          "value": "backup-offline",
+          "impact": 1
+        },
+        {
+          "value": "backup",
+          "impact": 1
+        }
+      ],
+      "id": "financialmalware-retailbanking"
+    },
+    {
+      "recommendations": [
+        {
+          "value": "backup",
+          "impact": 3
+        },
+        {
+          "value": "backup-testing",
+          "impact": 4
+        },
+        {
+          "value": "backup-offline",
+          "impact": 4
+        },
+        {
+          "value": "browser-extension-patching",
+          "impact": 2
+        }
+      ],
+      "id": "cryptoransomware"
+    }
+  ],
+  "description": "List of counter-measures against known threats.",
+  "version": 1
+}

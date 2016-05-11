@@ -1,0 +1,27 @@
+{
+  "values": [
+    {
+      "probability": {
+        "LU": 0.03
+      },
+      "description": "Cryptographic ransomware encrypting the information of the victim and asking for a ransom.",
+      "id": "cryptoransomware"
+    },
+    {
+      "probability": {
+        "LU": 0.02
+      },
+      "description": "Financial malware targeting banking systems used by businesses.",
+      "id": "financialmalware-business"
+    },
+    {
+      "probability": {
+        "LU": 0.015
+      },
+      "description": "Financial malware targeting retail banking systems.",
+      "id": "financialmalware-retailbanking"
+    }
+  ],
+  "description": "List of known threats",
+  "version": 1
+}
