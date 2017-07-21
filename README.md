@@ -4,7 +4,8 @@ Threats Risk Index (TRI)
 **Work in progress**
 
 Threats Risk Index (TRI) is a different way to calculate risks in information security. As we have seen that a lot of risks model based on
-generic cases, we wanted to create a risk evaluation which is based on current existing threats. The model of calculation is based on a simple way to sum the measures not implemented.
+generic cases, we wanted to create a risk evaluation which is based on current existing threats (e.g. real threats reported to CERT or handled by CSIRTs). 
+The model of calculation is based on a simple way to sum the *measures not implemented* per threat.
 
 ~~~~
 Threats Risk Index = (Threat probability) * (1+SUM(recommendations not implemented))
@@ -45,7 +46,7 @@ Off-line backup = 4
 Patching of browser extension = 2
 ~~~~
 
-If none of the counter-measures are taken, the following risk can be calculated:
+If none of the counter-measures are implemented, the following TRI can be calculated:
 
 ~~~~
 (0.03) (1+3+4+4+2) = .42
